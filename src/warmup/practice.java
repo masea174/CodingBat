@@ -1,7 +1,7 @@
 package warmup;
 
 public class practice {
-    public static void main(String[] args) {
+
 
 
     /*
@@ -14,7 +14,16 @@ sleepIn(false, true) → true
 
      */
 
-        String day =
+    public  boolean sleepIn(boolean weekday, boolean vacation){
+   if (!weekday || vacation){
+       return true;
+
+     } else {
+       return false;
+        }
+
 
     }
-}
+
+
+    }
